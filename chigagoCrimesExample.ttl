@@ -1,0 +1,173 @@
+@prefix : <http://www.di.uminho.pt/prc2021/chicago_crimes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/chicago_crimes> .
+
+<http://www.di.uminho.pt/prc2021/chicago_crimes> rdf:type owl:Ontology ;
+                                                  owl:versionIRI <http://www.di.uminho.pt/prc2021/chicago_crimes/v1> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#HasCommArea
+:HasCommArea rdf:type owl:ObjectProperty ;
+             owl:inverseOf :commHasCrime ;
+             rdfs:domain :Crime ;
+             rdfs:range :CommunityArea .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#beatHasCrime
+:beatHasCrime rdf:type owl:ObjectProperty ;
+              owl:inverseOf :hasBeat .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#commHasCrime
+:commHasCrime rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#districtHasCrime
+:districtHasCrime rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :hasDistrict .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#hasBeat
+:hasBeat rdf:type owl:ObjectProperty ;
+         rdfs:domain :Crime ;
+         rdfs:range :Beat .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#hasDistrict
+:hasDistrict rdf:type owl:ObjectProperty ;
+             rdfs:domain :Crime ;
+             rdfs:range :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#hasIUCR
+:hasIUCR rdf:type owl:ObjectProperty ;
+         owl:inverseOf :iucrHasCrime ;
+         rdfs:domain :Crime ;
+         rdfs:range :IUCR .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#hasWard
+:hasWard rdf:type owl:ObjectProperty ;
+         owl:inverseOf :wardHasCrime ;
+         rdfs:domain :Crime ;
+         rdfs:range :Ward .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucrHasCrime
+:iucrHasCrime rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#locatesIn
+:locatesIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :Beat ;
+           rdfs:range :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#wardHasCrime
+:wardHasCrime rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#FBI_code
+:FBI_code rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#arrest
+:arrest rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#block
+:block rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#case_number
+:case_number rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#date
+:date rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#domestic
+:domestic rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_primary_descr
+:iucr_primary_descr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_secondary_descr
+:iucr_secondary_descr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#latitude
+:latitude rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#location_descritption
+:location_descritption rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#longitude
+:longitude rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#name
+:name rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#shape_area
+:shape_area rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#shape_length
+:shape_length rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#updated_on
+:updated_on rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#year
+:year rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#Beat
+:Beat rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#CommunityArea
+:CommunityArea rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#Crime
+:Crime rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#District
+:District rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#IUCR
+:IUCR rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#Ward
+:Ward rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,616 @@
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_35
+:comm_35 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "DOUGLAS" ;
+         :shape_area 46004621.1581 ;
+         :shape_length 31027.0545098 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_36
+:comm_36 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "OAKLAND" ;
+         :shape_area 16913961.0408 ;
+         :shape_length 19565.5061533 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_37
+:comm_37 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "FULLER PARK" ;
+         :shape_area 19916704.8692 ;
+         :shape_length 25339.0897503 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_38
+:comm_38 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "GRAND BOULEVARD" ;
+         :shape_area 48492503.1554 ;
+         :shape_length 28196.8371573 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_39
+:comm_39 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "KENWOOD" ;
+         :shape_area 29071741.9283 ;
+         :shape_length 23325.1679062 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_4
+:comm_4 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LINCOLN SQUARE" ;
+         :shape_area 71352328.2399 ;
+         :shape_length 36624.6030848 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_40
+:comm_40 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WASHINGTON PARK" ;
+         :shape_area 42373881.4842 ;
+         :shape_length 28175.3160866 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_41
+:comm_41 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "HYDE PARK" ;
+         :shape_area 45105380.1732 ;
+         :shape_length 29746.7082016 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_42
+:comm_42 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WOODLAWN" ;
+         :shape_area 57815179.512 ;
+         :shape_length 46936.9592443 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_1
+:comm_1 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ROGERS PARK" ;
+         :shape_area 51259902.4506 ;
+         :shape_length 34052.3975757 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_11
+:comm_11 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "JEFFERSON PARK" ;
+         :shape_area 64868161.6818 ;
+         :shape_length 44011.9571704 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_12
+:comm_12 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "FOREST GLEN" ;
+         :shape_area 89130893.6364 ;
+         :shape_length 74493.821604 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_13
+:comm_13 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NORTH PARK" ;
+         :shape_area 70288706.4343 ;
+         :shape_length 41581.9486539 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_14
+:comm_14 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ALBANY PARK" ;
+         :shape_area 53542230.8191 ;
+         :shape_length 39339.0164387 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_15
+:comm_15 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "PORTAGE PARK" ;
+         :shape_area 110196097.139 ;
+         :shape_length 46520.6421377 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_16
+:comm_16 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "IRVING PARK" ;
+         :shape_area 89611382.3106 ;
+         :shape_length 49083.2240938 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_17
+:comm_17 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "DUNNING" ;
+         :shape_area 103595001.175 ;
+         :shape_length 54555.9925337 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_18
+:comm_18 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "MONTCLARE" ;
+         :shape_area 27576393.6325 ;
+         :shape_length 22404.8521448 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_19
+:comm_19 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "BELMONT CRAGIN" ;
+         :shape_area 109099414.689 ;
+         :shape_length 43311.707379 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_2
+:comm_2 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST RIDGE" ;
+         :shape_area 98429094.8621 ;
+         :shape_length 43020.6894583 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_20
+:comm_20 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "HERMOSA" ;
+         :shape_area 32602059.4055 ;
+         :shape_length 27179.0174378 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_21
+:comm_21 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "AVONDALE" ;
+         :shape_area 55290595.473 ;
+         :shape_length 34261.9334038 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_22
+:comm_22 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LOGAN SQUARE" ;
+         :shape_area 100057566.7 ;
+         :shape_length 49213.4217488 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_23
+:comm_23 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "HUMBOLDT PARK" ;
+         :shape_area 100480876.502 ;
+         :shape_length 48583.0643299 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_24
+:comm_24 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST TOWN" ;
+         :shape_area 127562904.597 ;
+         :shape_length 55203.7186956 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_25
+:comm_25 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "AUSTIN" ;
+         :shape_area 199254203.427 ;
+         :shape_length 75226.4749167 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_26
+:comm_26 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST GARFIELD PARK" ;
+         :shape_area 36092848.8151 ;
+         :shape_length 26238.5419796 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_27
+:comm_27 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "EAST GARFIELD PARK" ;
+         :shape_area 53883220.8462 ;
+         :shape_length 31514.6259565 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_28
+:comm_28 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NEAR WEST SIDE" ;
+         :shape_area 158492466.554 ;
+         :shape_length 53003.5929406 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_29
+:comm_29 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NORTH LAWNDALE" ;
+         :shape_area 89487422.0242 ;
+         :shape_length 44959.4596627 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_3
+:comm_3 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "UPTOWN" ;
+         :shape_area 65095642.7289 ;
+         :shape_length 46972.7945549 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_30
+:comm_30 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "SOUTH LAWNDALE" ;
+         :shape_area 127998297.867 ;
+         :shape_length 49904.0452102 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_31
+:comm_31 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LOWER WEST SIDE" ;
+         :shape_area 81550723.6377 ;
+         :shape_length 43229.3727036 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_33
+:comm_33 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NEAR SOUTH SIDE" ;
+         :shape_area 49769639.4541 ;
+         :shape_length 45053.1651038 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_34
+:comm_34 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ARMOUR SQUARE" ;
+         :shape_area 27766196.0954 ;
+         :shape_length 31948.5988398 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_10
+:comm_10 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NORWOOD PARK" ;
+         :shape_area 121959105.47 ;
+         :shape_length 80368.3743778 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_8
+:comm_8 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NEAR NORTH SIDE" ;
+         :shape_area 76675895.9728 ;
+         :shape_length 57293.1649516 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_32
+:comm_32 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LOOP" ;
+         :shape_area 46335565.4586 ;
+         :shape_length 39428.6729962 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_43
+:comm_43 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "SOUTH SHORE" ;
+         :shape_area 81812716.3958 ;
+         :shape_length 44249.6461173 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_44
+:comm_44 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "CHATHAM" ;
+         :shape_area 82320670.3112 ;
+         :shape_length 42006.9450094 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_45
+:comm_45 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "AVALON PARK" ;
+         :shape_area 34852737.7366 ;
+         :shape_length 27630.822534 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_46
+:comm_46 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "SOUTH CHICAGO" ;
+         :shape_area 93272185.0092 ;
+         :shape_length 52435.9794313 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_47
+:comm_47 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "BURNSIDE" ;
+         :shape_area 16995983.2737 ;
+         :shape_length 18137.9442529 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_59
+:comm_59 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "MCKINLEY PARK" ;
+         :shape_area 39431799.6479 ;
+         :shape_length 26014.0968371 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_6
+:comm_6 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LAKE VIEW" ;
+         :shape_area 87214799.2728 ;
+         :shape_length 51973.0968677 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_48
+:comm_48 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "CALUMET HEIGHTS" ;
+         :shape_area 48826241.5643 ;
+         :shape_length 32925.3658706 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_49
+:comm_49 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ROSELAND" ;
+         :shape_area 134313706.73 ;
+         :shape_length 56632.7954292 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_5
+:comm_5 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NORTH CENTER" ;
+         :shape_area 57054167.85 ;
+         :shape_length 31391.6697542 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_50
+:comm_50 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "PULLMAN" ;
+         :shape_area 59001555.602 ;
+         :shape_length 35572.0695077 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_51
+:comm_51 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "SOUTH DEERING" ;
+         :shape_area 303797059.66 ;
+         :shape_length 80389.8718002 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_52
+:comm_52 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "EAST SIDE" ;
+         :shape_area 83241728.0493 ;
+         :shape_length 52274.1928493 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_53
+:comm_53 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST PULLMAN" ;
+         :shape_area 99365198.0822 ;
+         :shape_length 50023.8430008 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_54
+:comm_54 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "RIVERDALE" ;
+         :shape_area 98389497.4143 ;
+         :shape_length 46455.4408571 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_55
+:comm_55 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "HEGEWISCH" ;
+         :shape_area 145965741.437 ;
+         :shape_length 73692.3821322 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_56
+:comm_56 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "GARFIELD RIDGE" ;
+         :shape_area 117890778.429 ;
+         :shape_length 60080.4479704 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_57
+:comm_57 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ARCHER HEIGHTS" ;
+         :shape_area 55922505.7212 ;
+         :shape_length 31880.0210295 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_58
+:comm_58 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "BRIGHTON PARK" ;
+         :shape_area 75892790.3114 ;
+         :shape_length 36537.1343061 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_60
+:comm_60 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "BRIDGEPORT" ;
+         :shape_area 58291519.2767 ;
+         :shape_length 32732.7183268 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_61
+:comm_61 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "NEW CITY" ;
+         :shape_area 134636963.254 ;
+         :shape_length 48133.595961 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_62
+:comm_62 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST ELSDON" ;
+         :shape_area 32711091.4259 ;
+         :shape_length 26229.6956007 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_63
+:comm_63 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "GAGE PARK" ;
+         :shape_area 61284896.1132 ;
+         :shape_length 32294.1959107 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_64
+:comm_64 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "CLEARING" ;
+         :shape_area 71145192.3827 ;
+         :shape_length 45363.2861749 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_65
+:comm_65 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST LAWN" ;
+         :shape_area 82315301.6831 ;
+         :shape_length 41934.4901309 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_66
+:comm_66 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "CHICAGO LAWN" ;
+         :shape_area 98279465.1151 ;
+         :shape_length 40073.0998382 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_67
+:comm_67 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WEST ENGLEWOOD" ;
+         :shape_area 87947691.9478 ;
+         :shape_length 40195.2033069 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_68
+:comm_68 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ENGLEWOOD" ;
+         :shape_area 85652323.0826 ;
+         :shape_length 42316.8442973 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_69
+:comm_69 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "GREATER GRAND CROSSING" ;
+         :shape_area 98853167.7093 ;
+         :shape_length 54645.3302996 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_7
+:comm_7 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "LINCOLN PARK" ;
+         :shape_area 88316400.4728 ;
+         :shape_length 49478.4277714 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_70
+:comm_70 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "ASHBURN" ;
+         :shape_area 135460337.208 ;
+         :shape_length 54818.1546317 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_71
+:comm_71 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "AUBURN GRESHAM" ;
+         :shape_area 105065353.602 ;
+         :shape_length 46757.7217161 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_72
+:comm_72 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "BEVERLY" ;
+         :shape_area 88779363.9384 ;
+         :shape_length 44591.4851009 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_73
+:comm_73 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "WASHINGTON HEIGHTS" ;
+         :shape_area 79635752.8769 ;
+         :shape_length 42222.598163 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_74
+:comm_74 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "MOUNT GREENWOOD" ;
+         :shape_area 75584290.0209 ;
+         :shape_length 48665.1305392 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_75
+:comm_75 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "MORGAN PARK" ;
+         :shape_area 91877340.6988 ;
+         :shape_length 46396.419362 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_76
+:comm_76 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "OHARE" ;
+         :shape_area 371835607.687 ;
+         :shape_length 173625.98466 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_77
+:comm_77 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "EDGEWATER" ;
+         :shape_area 48449990.8397 ;
+         :shape_length 31004.8309456 .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#comm_9
+:comm_9 rdf:type owl:NamedIndividual ,
+                  :CommunityArea ;
+         :name "EDISON PARK" ;
+         :shape_area 31636313.7864 ;
+         :shape_length 25937.226841 .
+
+

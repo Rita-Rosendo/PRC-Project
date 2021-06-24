@@ -1,0 +1,125 @@
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_17
+:distr_17 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_20
+:distr_20 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_31
+:distr_31 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_31
+:distr_31 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_19
+:distr_19 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_25
+:distr_25 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_14
+:distr_14 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_31
+:distr_31 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_22
+:distr_22 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_5
+:distr_5 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_24
+:distr_24 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_16
+:distr_16 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_8
+:distr_8 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_18
+:distr_18 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_12
+:distr_12 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_11
+:distr_11 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_7
+:distr_7 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_3
+:distr_3 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_4
+:distr_4 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_6
+:distr_6 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_10
+:distr_10 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_1
+:distr_1 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_9
+:distr_9 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_2
+:distr_2 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#distr_15
+:distr_15 rdf:type owl:NamedIndividual ,
+                   :District .
+
+
