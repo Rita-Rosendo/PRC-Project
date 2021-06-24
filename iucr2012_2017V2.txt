@@ -1,0 +1,2555 @@
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0486
+:iucr_0486 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "DOMESTIC BATTERY SIMPLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0470
+:iucr_0470 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "RECKLESS CONDUCT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0460
+:iucr_0460 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "SIMPLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0820
+:iucr_0820 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "$500 AND UNDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_041A
+:iucr_041A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_143A
+:iucr_143A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL POSS OF HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0890
+:iucr_0890 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "FROM BUILDING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0810
+:iucr_0810 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "OVER $500" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0313
+:iucr_0313 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ARMED: OTHER DANGEROUS WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0910
+:iucr_0910 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "AUTOMOBILE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0560
+:iucr_0560 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "SIMPLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5002
+:iucr_5002 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OTHER VEHICLE OFFENSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1130
+:iucr_1130 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "FRAUD OR CONFIDENCE GAME" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1153
+:iucr_1153 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "FINANCIAL IDENTITY THEFT OVER $ 300" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1305
+:iucr_1305 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "CRIMINAL DEFACEMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1310
+:iucr_1310 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "TO PROPERTY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2825
+:iucr_2825 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "HARASSMENT BY TELEPHONE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1477
+:iucr_1477 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "RECKLESS FIREARM DISCHARGE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2820
+:iucr_2820 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "TELEPHONE THREAT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1152
+:iucr_1152 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "ILLEGAL USE CASH CARD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1320
+:iucr_1320 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "TO VEHICLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0860
+:iucr_0860 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "RETAIL THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1154
+:iucr_1154 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "FINANCIAL IDENTITY THEFT $300 AND UNDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1150
+:iucr_1150 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "CREDIT CARD FRAUD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2850
+:iucr_2850 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "BOMB THREAT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0320
+:iucr_0320 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "STRONGARM - NO WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1330
+:iucr_1330 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL TRESPASS" ;
+           :iucr_secondary_descr "TO LAND" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_501A
+:iucr_501A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "ANIMAL ABUSE/NEGLECT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0620
+:iucr_0620 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BURGLARY" ;
+           :iucr_secondary_descr "UNLAWFUL ENTRY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0580
+:iucr_0580 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "STALKING" ;
+           :iucr_secondary_descr "SIMPLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2840
+:iucr_2840 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "FALSE FIRE ALARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0610
+:iucr_0610 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BURGLARY" ;
+           :iucr_secondary_descr "FORCIBLE ENTRY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0630
+:iucr_0630 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BURGLARY" ;
+           :iucr_secondary_descr "ATTEMPT FORCIBLE ENTRY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1110
+:iucr_1110 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "BOGUS CHECK" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_031A
+:iucr_031A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ARMED: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0880
+:iucr_0880 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "PURSE-SNATCHING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2826
+:iucr_2826 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "HARASSMENT BY ELECTRONIC MEANS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0265
+:iucr_0265 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1811
+:iucr_1811 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: CANNABIS 30GMS OR LESS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1563
+:iucr_1563 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "CRIMINAL SEXUAL ABUSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0312
+:iucr_0312 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ARMED:KNIFE/CUTTING INSTRUMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0281
+:iucr_0281 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "NON-AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1541
+:iucr_1541 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OBSCENITY" ;
+           :iucr_secondary_descr "SALE/DIST OBSCENE MAT TO MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_051A
+:iucr_051A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1752
+:iucr_1752 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "AGG CRIM SEX ABUSE FAM MEMBER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1792
+:iucr_1792 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "CHILD ABDUCTION/STRANGER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0110
+:iucr_0110 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "HOMICIDE" ;
+           :iucr_secondary_descr "FIRST DEGREE MURDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0520
+:iucr_0520 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED:KNIFE/CUTTING INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1261
+:iucr_1261 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "UNAUTHORIZED VIDEOTAPING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0266
+:iucr_0266 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "PREDATORY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0330
+:iucr_0330 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1562
+:iucr_1562 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "AGG CRIMINAL SEXUAL ABUSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1544
+:iucr_1544 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "SEXUAL EXPLOITATION OF A CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5007
+:iucr_5007 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OTHER WEAPONS VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1121
+:iucr_1121 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "COUNTERFEITING DOCUMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4650
+:iucr_4650 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "SEX OFFENDER: FAIL TO REGISTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0554
+:iucr_0554 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGG PO HANDS NO/MIN INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1710
+:iucr_1710 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "ENDANGERING LIFE/HEALTH CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0850
+:iucr_0850 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "ATTEMPT THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0496
+:iucr_0496 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED DOMESTIC BATTERY: KNIFE/CUTTING INST" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0497
+:iucr_0497 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED DOMESTIC BATTERY: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0430
+:iucr_0430 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1365
+:iucr_1365 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL TRESPASS" ;
+           :iucr_secondary_descr "TO RESIDENCE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4387
+:iucr_4387 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLATE ORDER OF PROTECTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1156
+:iucr_1156 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "ATTEMPT - FINANCIAL IDENTITY THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3731
+:iucr_3731 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "OBSTRUCTING IDENTIFICATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1821
+:iucr_1821 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DEL:CANNABIS 10GM OR LESS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0325
+:iucr_0325 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "VEHICULAR HIJACKING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_143B
+:iucr_143B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL POSS OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1512
+:iucr_1512 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "SOLICIT FOR PROSTITUTE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0545
+:iucr_0545 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "PRO EMP HANDS NO/MIN INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0870
+:iucr_0870 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "POCKET-PICKING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4625
+:iucr_4625 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "PAROLE VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0484
+:iucr_0484 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "PRO EMP HANDS NO/MIN INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2170
+:iucr_2170 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSSESSION OF DRUG EQUIPMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2093
+:iucr_2093 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "FOUND SUSPECT NARCOTICS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2028
+:iucr_2028 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: SYNTHETIC DRUGS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5111
+:iucr_5111 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "GUN OFFENDER: ANNUAL REGISTRATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2024
+:iucr_2024 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: HEROIN(WHITE)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1360
+:iucr_1360 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL TRESPASS" ;
+           :iucr_secondary_descr "TO VEHICLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5011
+:iucr_5011 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "LICENSE VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2034
+:iucr_2034 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSSESSION: SYNTHETIC MARIJUANA" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4510
+:iucr_4510 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "PROBATION VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2092
+:iucr_2092 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "SOLICIT NARCOTICS ON PUBLICWAY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0530
+:iucr_0530 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_502R
+:iucr_502R rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VEHICLE TITLE/REG OFFENSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_502P
+:iucr_502P rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "FALSE/STOLEN/ALTERED TRP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0454
+:iucr_0454 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PO HANDS NO/MIN INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0334
+:iucr_0334 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: ARMED-KNIFE/CUT INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2027
+:iucr_2027 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: CRACK" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0326
+:iucr_0326 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "AGGRAVATED VEHICULAR HIJACKING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1350
+:iucr_1350 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL TRESPASS" ;
+           :iucr_secondary_descr "TO STATE SUP LAND" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1210
+:iucr_1210 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "THEFT OF LABOR/SERVICES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1780
+:iucr_1780 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "OTHER OFFENSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2014
+:iucr_2014 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER: HEROIN (WHITE)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1661
+:iucr_1661 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "GAMBLING" ;
+           :iucr_secondary_descr "GAME/DICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1506
+:iucr_1506 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "SOLICIT ON PUBLIC WAY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_141A
+:iucr_141A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL USE HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0930
+:iucr_0930 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "THEFT/RECOVERY: AUTOMOBILE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0650
+:iucr_0650 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BURGLARY" ;
+           :iucr_secondary_descr "HOME INVASION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0420
+:iucr_0420 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED:KNIFE/CUTTING INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1200
+:iucr_1200 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "STOLEN PROP: BUY/RECEIVE/POS." .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2860
+:iucr_2860 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "FALSE POLICE REPORT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5000
+:iucr_5000 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OTHER CRIME AGAINST PERSON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1155
+:iucr_1155 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "AGGRAVATED FINANCIAL IDENTITY THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0920
+:iucr_0920 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "ATT: AUTOMOBILE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1750
+:iucr_1750 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CHILD ABUSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1753
+:iucr_1753 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "SEX ASSLT OF CHILD BY FAM MBR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1812
+:iucr_1812 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: CANNABIS MORE THAN 30GMS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2017
+:iucr_2017 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:CRACK" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2031
+:iucr_2031 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: METHAMPHETAMINES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1822
+:iucr_1822 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DEL:CANNABIS OVER 10 GMS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2022
+:iucr_2022 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: COCAINE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2015
+:iucr_2015 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER: HALLUCINOGEN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2025
+:iucr_2025 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: HALLUCINOGENS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2091
+:iucr_2091 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "FORFEIT PROPERTY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2018
+:iucr_2018 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:SYNTHETIC DRUGS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2021
+:iucr_2021 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: BARBITUATES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2032
+:iucr_2032 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER: METHAMPHETAMINES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0453
+:iucr_0453 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED PO: OTHER DANG WEAP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4651
+:iucr_4651 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "SEX OFFENDER: FAIL REG NEW ADD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0462
+:iucr_0462 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PRO EMP HANDS SERIOUS INJ" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1120
+:iucr_1120 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "FORGERY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1122
+:iucr_1122 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "COUNTERFEIT CHECK" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3960
+:iucr_3960 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTIMIDATION" ;
+           :iucr_secondary_descr "INTIMIDATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1565
+:iucr_1565 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "INDECENT SOLICITATION/CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1195
+:iucr_1195 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "FINAN EXPLOIT-ELDERLY/DISABLED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2023
+:iucr_2023 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: HEROIN(BRN/TAN)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1435
+:iucr_1435 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL SALE/DELIVERY OF FIREARM AT SCHOOL" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3300
+:iucr_3300 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "PUBLIC DEMONSTRATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4230
+:iucr_4230 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "UNLAWFUL RESTRAINT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2011
+:iucr_2011 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:BARBITUATES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5130
+:iucr_5130 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLENT OFFENDER: DUTY TO REGISTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0498
+:iucr_0498 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1754
+:iucr_1754 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "AGG SEX ASSLT OF CHILD FAM MBR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1025
+:iucr_1025 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0917
+:iucr_0917 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "CYCLE, SCOOTER, BIKE W-VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_141C
+:iucr_141C rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL USE OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0552
+:iucr_0552 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED PO:KNIFE/CUT INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0340
+:iucr_0340 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: STRONGARM-NO WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0550
+:iucr_0550 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED PO: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0495
+:iucr_0495 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED OF A SENIOR CITIZEN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0337
+:iucr_0337 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: ARMED-OTHER DANG WEAP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1585
+:iucr_1585 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "OTHER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0440
+:iucr_0440 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG: HANDS/FIST/FEET NO/MINOR INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1345
+:iucr_1345 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "TO CITY OF CHICAGO PROPERTY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1790
+:iucr_1790 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CHILD ABDUCTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4255
+:iucr_4255 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "UNLAWFUL INTERFERE/VISITATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4386
+:iucr_4386 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLATION OF CIVIL NO CONTACT ORDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2250
+:iucr_2250 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "LIQUOR LICENSE VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3730
+:iucr_3730 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "OBSTRUCTING JUSTICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0918
+:iucr_0918 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "CYCLE, SCOOTER, BIKE NO VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1220
+:iucr_1220 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "THEFT OF LOST/MISLAID PROP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1570
+:iucr_1570 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "PUBLIC INDECENCY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0483
+:iucr_0483 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PRO.EMP: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2220
+:iucr_2220 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "ILLEGAL POSSESSION BY MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0261
+:iucr_0261 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1020
+:iucr_1020 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "BY FIRE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_051B
+:iucr_051B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0331
+:iucr_0331 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0479
+:iucr_0479 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG: HANDS/FIST/FEET SERIOUS INJURY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3710
+:iucr_3710 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "RESIST/OBSTRUCT/DISARM OFFICER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_033A
+:iucr_033A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: ARMED-HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2851
+:iucr_2851 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "ARSON THREAT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4310
+:iucr_4310 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "POSSESSION OF BURGLARY TOOLS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3760
+:iucr_3760 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "OBSTRUCTING SERVICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1242
+:iucr_1242 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "COMPUTER FRAUD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3800
+:iucr_3800 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "INTERFERENCE JUDICIAL PROCESS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_143C
+:iucr_143C rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL POSS AMMUNITION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1670
+:iucr_1670 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "GAMBLING" ;
+           :iucr_secondary_descr "GAME/AMUSEMENT DEVICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0915
+:iucr_0915 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "TRUCK, BUS, MOTOR HOME" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_502T
+:iucr_502T rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "TAMPER WITH MOTOR VEHICLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1206
+:iucr_1206 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "THEFT BY LESSEE,MOTOR VEH" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2090
+:iucr_2090 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "ALTER/FORGE PRESCRIPTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5001
+:iucr_5001 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OTHER CRIME INVOLVING PROPERTY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_031B
+:iucr_031B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ARMED: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1540
+:iucr_1540 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OBSCENITY" ;
+           :iucr_secondary_descr "OBSCENE MATTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5093
+:iucr_5093 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "LOST PASSPORT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2020
+:iucr_2020 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: AMPHETAMINES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0291
+:iucr_0291 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT NON-AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2013
+:iucr_2013 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER: HEROIN(BRN/TAN)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_500N
+:iucr_500N rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "ABUSE/NEGLECT: CARE FACILITY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1460
+:iucr_1460 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "POSS FIREARM/AMMO:NO FOID CARD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1090
+:iucr_1090 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "ATTEMPT ARSON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2890
+:iucr_2890 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "OTHER VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1751
+:iucr_1751 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CRIM SEX ABUSE BY FAM MEMBER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0263
+:iucr_0263 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: KNIFE/CUT INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0488
+:iucr_0488 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED DOMESTIC BATTERY: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3970
+:iucr_3970 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTIMIDATION" ;
+           :iucr_secondary_descr "EXTORTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1151
+:iucr_1151 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "ILLEGAL POSSESSION CASH CARD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0482
+:iucr_0482 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PRO.EMP:KNIFE/CUTTING INST" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1582
+:iucr_1582 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CHILD PORNOGRAPHY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2900
+:iucr_2900 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL USE/SALE AIR RIFLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0557
+:iucr_0557 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGG PRO.EMP:KNIFE/CUTTING INST" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0558
+:iucr_0558 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGG PRO.EMP: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2012
+:iucr_2012 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:COCAINE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1140
+:iucr_1140 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "EMBEZZLEMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1536
+:iucr_1536 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC INDECENCY" ;
+           :iucr_secondary_descr "LICENSED PREMISE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2830
+:iucr_2830 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OBSCENE TELEPHONE CALLS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2026
+:iucr_2026 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: PCP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5003
+:iucr_5003 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "OTHER ARSON/EXPLOSIVE INCIDENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1340
+:iucr_1340 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "TO STATE SUP PROP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0452
+:iucr_0452 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED PO: KNIFE/CUT INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1755
+:iucr_1755 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CHILD ABANDONMENT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5110
+:iucr_5110 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "GUN OFFENDER: DUTY TO REGISTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_141B
+:iucr_141B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL USE OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2050
+:iucr_2050 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "CRIMINAL DRUG CONSPIRACY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0275
+:iucr_0275 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT AGG: OTHER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0555
+:iucr_0555 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGG PRO.EMP: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1505
+:iucr_1505 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "CALL OPERATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0895
+:iucr_0895 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "FROM COIN-OP MACHINE/DEVICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0485
+:iucr_0485 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED OF A CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_142A
+:iucr_142A rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL SALE HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1050
+:iucr_1050 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "HUMAN TRAFFICKING" ;
+           :iucr_secondary_descr "COMMERCIAL SEX ACTS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4389
+:iucr_4389 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLATION GPS MONITORING DEVICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5004
+:iucr_5004 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "ATT CRIM SEXUAL ABUSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1235
+:iucr_1235 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "UNLAWFUL USE OF RECORDED SOUND" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1720
+:iucr_1720 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CONTRIBUTE DELINQUENCY OF A CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5131
+:iucr_5131 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLENT OFFENDER: ANNUAL REGISTRATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4652
+:iucr_4652 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "SEX OFFENDER: PROHIBITED ZONE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5114
+:iucr_5114 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "FOID - REVOCATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0553
+:iucr_0553 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED PO: OTHER DANG WEAP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0583
+:iucr_0583 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "STALKING" ;
+           :iucr_secondary_descr "CYBERSTALKING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4388
+:iucr_4388 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIO BAIL BOND: DOM VIOLENCE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0865
+:iucr_0865 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "DELIVERY CONTAINER THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0935
+:iucr_0935 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "THEFT/RECOVERY: TRUCK,BUS,MHOME" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1335
+:iucr_1335 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL TRESPASS" ;
+           :iucr_secondary_descr "TO AIRPORT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3910
+:iucr_3910 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "BRIBERY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2870
+:iucr_2870 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "PEEPING TOM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1590
+:iucr_1590 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "ATT AGG CRIMINAL SEXUAL ABUSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2230
+:iucr_2230 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "ILLEGAL CONSUMPTION BY MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1850
+:iucr_1850 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "CANNABIS PLANT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2070
+:iucr_2070 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "DEL CONT SUBS TO PERSON <18" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0273
+:iucr_0273 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT AGG: KNIFE/CUT INSTR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1375
+:iucr_1375 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "INSTITUTIONAL VANDALISM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3100
+:iucr_3100 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "MOB ACTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0925
+:iucr_0925 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "ATT: TRUCK, BUS, MOTOR HOME" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0264
+:iucr_0264 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1480
+:iucr_1480 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CONCEALED CARRY LICENSE VIOLATION" ;
+           :iucr_secondary_descr "OTHER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0271
+:iucr_0271 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT AGG: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1240
+:iucr_1240 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "UNLAWFUL USE OF A COMPUTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5112
+:iucr_5112 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "GUN OFFENDER: DUTY TO REPORT CHANGE OF INFORMATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2016
+:iucr_2016 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:PCP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0840
+:iucr_0840 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "FINANCIAL ID THEFT: OVER $300" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1245
+:iucr_1245 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "PAY TV SERVICE OFFENSES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0841
+:iucr_0841 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "FINANCIAL ID THEFT:$300 &UNDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0842
+:iucr_0842 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "AGG: FINANCIAL ID THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0584
+:iucr_0584 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "STALKING" ;
+           :iucr_secondary_descr "VIOLATION OF STALKING NO CONTACT ORDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1535
+:iucr_1535 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OBSCENITY" ;
+           :iucr_secondary_descr "OBSCENITY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1170
+:iucr_1170 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "IMPERSONATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2210
+:iucr_2210 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "SELL/GIVE/DEL LIQUOR TO MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1564
+:iucr_1564 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "CRIMINAL TRANSMISSION OF HIV" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0581
+:iucr_0581 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "STALKING" ;
+           :iucr_secondary_descr "AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2080
+:iucr_2080 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "CONT SUBS:FAIL TO MAINT RECORD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1185
+:iucr_1185 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "DECEPTIVE COLLECTION PRACTICES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_142B
+:iucr_142B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "UNLAWFUL SALE OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1205
+:iucr_1205 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "THEFT BY LESSEE,NON-VEH" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1513
+:iucr_1513 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "SOLICIT FOR BUSINESS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_033B
+:iucr_033B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ROBBERY" ;
+           :iucr_secondary_descr "ATTEMPT: ARMED-OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1576
+:iucr_1576 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "BIGAMY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2030
+:iucr_2030 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:LOOK-ALIKE DRUG" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0262
+:iucr_0262 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2160
+:iucr_2160 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "SALE/DEL DRUG PARAPHERNALIA" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2029
+:iucr_2029 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: HEROIN(BLACK TAR)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1260
+:iucr_1260 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "LIBRARY THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1549
+:iucr_1549 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "OTHER PROSTITUTION OFFENSE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1265
+:iucr_1265 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "LIBRARY VANDALISM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2110
+:iucr_2110 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POS: HYPODERMIC NEEDLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1507
+:iucr_1507 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "SOLICIT OFF PUBLIC WAY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1055
+:iucr_1055 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "HUMAN TRAFFICKING" ;
+           :iucr_secondary_descr "INVOLUNTARY SERVITUDE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3975
+:iucr_3975 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTIMIDATION" ;
+           :iucr_secondary_descr "COMPELLING ORG MEMBERSHIP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5121
+:iucr_5121 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "ARSONIST: ANNUAL REGISTRATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1651
+:iucr_1651 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "GAMBLING" ;
+           :iucr_secondary_descr "GAME/CARDS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1682
+:iucr_1682 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "ANIMAL FIGHTING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3750
+:iucr_3750 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "ESCAPE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5009
+:iucr_5009 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLATION OF SMOKING BAN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1537
+:iucr_1537 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "POS: PORNOGRAPHIC PRINT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5113
+:iucr_5113 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "GUN OFFENDER NOTIFICATION-NO CONTACT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1725
+:iucr_1725 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "CONTRIBUTE CRIM DELINQUENCY JUVENILE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1566
+:iucr_1566 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "INDECENT SOLICITATION/ADULT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1479
+:iucr_1479 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CONCEALED CARRY LICENSE VIOLATION" ;
+           :iucr_secondary_descr "ARMED WHILE UNDER THE INFLUENCE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0461
+:iucr_0461 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PO HANDS ETC SERIOUS INJ" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0475
+:iucr_0475 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "OF UNBORN CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4210
+:iucr_4210 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "KIDNAPPING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3751
+:iucr_3751 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "AIDING ARRESTEE ESCAPE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4860
+:iucr_4860 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "BOARD PLANE WITH WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2095
+:iucr_2095 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "ATTEMPT POSSESSION NARCOTICS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1900
+:iucr_1900 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER NARCOTIC VIOLATION" ;
+           :iucr_secondary_descr "INTOXICATING COMPOUNDS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5094
+:iucr_5094 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "FOUND PASSPORT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4220
+:iucr_4220 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "AGGRAVATED" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3610
+:iucr_3610 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "INTERFERE W/ HIGHER EDUCATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1791
+:iucr_1791 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "HARBOR RUNAWAY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1478
+:iucr_1478 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CONCEALED CARRY LICENSE VIOLATION" ;
+           :iucr_secondary_descr "PROHIBITED PLACES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0142
+:iucr_0142 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "HOMICIDE" ;
+           :iucr_secondary_descr "RECKLESS HOMICIDE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5132
+:iucr_5132 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLENT OFFENDER: FAIL TO REGISTER NEW ADDRESS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1530
+:iucr_1530 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "PIMPING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1135
+:iucr_1135 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "INSURANCE FRAUD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0843
+:iucr_0843 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "ATTEMPT FINANCIAL IDENTITY THEFT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1255
+:iucr_1255 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "UNIDENTIFIABLE RECORDING SOUND" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_500E
+:iucr_500E rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "EAVESDROPPING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4240
+:iucr_4240 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "KIDNAPPING" ;
+           :iucr_secondary_descr "FORCIBLE DETENTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1525
+:iucr_1525 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "PATRONIZING A PROSTITUTE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2040
+:iucr_2040 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "POSS: LOOK-ALIKE DRUGS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_041B
+:iucr_041B rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5008
+:iucr_5008 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "FIREARM REGISTRATION VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1511
+:iucr_1511 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "IN TAVERN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_501H
+:iucr_501H rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "HAZARDOUS MATERIALS VIOLATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1370
+:iucr_1370 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIMINAL DAMAGE" ;
+           :iucr_secondary_descr "TO FIRE FIGHT.APP.EQUIP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1680
+:iucr_1680 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "GAMBLING" ;
+           :iucr_secondary_descr "OTHER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1241
+:iucr_1241 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "AGGRAVATED COMPUTER TAMPERING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1611
+:iucr_1611 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "GAMBLING" ;
+           :iucr_secondary_descr "BOOKMAKING/SPORTS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4810
+:iucr_4810 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "COMPOUNDING A CRIME" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1520
+:iucr_1520 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "KEEP PLACE OF PROSTITUTION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2094
+:iucr_2094 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "ATTEMPT POSSESSION CANNABIS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2010
+:iucr_2010 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:AMPHETAMINES" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1715
+:iucr_1715 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OFFENSE INVOLVING CHILDREN" ;
+           :iucr_secondary_descr "SALE TOBACCO PRODUCTS TO MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0927
+:iucr_0927 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0450
+:iucr_0450 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED PO: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2033
+:iucr_2033 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/POSS. W/INTENT TO DELIVER: SYNTHETIC MARIJUANA" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2240
+:iucr_2240 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "MINOR MISREPRESENT AGE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4800
+:iucr_4800 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "MONEY LAUNDERING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0551
+:iucr_0551 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGGRAVATED PO: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0937
+:iucr_0937 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0928
+:iucr_0928 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "ATTEMPT: CYCLE, SCOOTER, BIKE NO VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1580
+:iucr_1580 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "SEX RELATION IN FAMILY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1030
+:iucr_1030 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "POS: EXPLOSIVE/INCENDIARY DEV" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3000
+:iucr_3000 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "SELL/ADVERTISE FIREWORKS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1010
+:iucr_1010 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "BY EXPLOSIVE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1035
+:iucr_1035 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ARSON" ;
+           :iucr_secondary_descr "POS: CHEMICAL/DRY-ICE DEVICE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0556
+:iucr_0556 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "ASSAULT" ;
+           :iucr_secondary_descr "AGG PRO.EMP: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3980
+:iucr_3980 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTIMIDATION" ;
+           :iucr_secondary_descr "COMPELLING CONFESSION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1840
+:iucr_1840 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "DELIVER CANNABIS TO PERSON <18" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0487
+:iucr_0487 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED OF A UNBORN CHILD" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0274
+:iucr_0274 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT AGG: OTHER DANG WEAPON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5073
+:iucr_5073 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL (SUBJECT SPECIFIED)" ;
+           :iucr_secondary_descr "NOTIFICATION OF CIVIL NO CONTACT ORDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2019
+:iucr_2019 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "MANU/DELIVER:HEROIN(BLACK TAR)" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2895
+:iucr_2895 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "INTERFERE W/ EMERGENCY EQUIP" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1531
+:iucr_1531 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "JUVENILE PIMPING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2251
+:iucr_2251 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "LIQUOR LAW VIOLATION" ;
+           :iucr_secondary_descr "EMPLOY MINOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1450
+:iucr_1450 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "WEAPONS VIOLATION" ;
+           :iucr_secondary_descr "DEFACE IDENT MARKS OF FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1515
+:iucr_1515 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "PANDERING" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3740
+:iucr_3740 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "CONCEALING/AIDING A FUGITIVE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_4740
+:iucr_4740 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "UNLAWFUL USE OF BODY ARMOR" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0938
+:iucr_0938 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "MOTOR VEHICLE THEFT" ;
+           :iucr_secondary_descr "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE NO VIN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1160
+:iucr_1160 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "ALTER COINS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3966
+:iucr_3966 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTIMIDATION" ;
+           :iucr_secondary_descr "EDUCATIONAL INTIMIDAITON" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3920
+:iucr_3920 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "OFFICIAL MISCONDUCT" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1860
+:iucr_1860 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "CALCULATED CANNABIS CONSPIRACY" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0141
+:iucr_0141 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "HOMICIDE" ;
+           :iucr_secondary_descr "INVOLUNTARY MANSLAUGHTER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2060
+:iucr_2060 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "FAIL REGISTER LIC:CONT SUBS" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3200
+:iucr_3200 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PUBLIC PEACE VIOLATION" ;
+           :iucr_secondary_descr "ARMED VIOLENCE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0585
+:iucr_0585 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "NOTIFICATION OF STALKING - NO CONTACT ORDER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1481
+:iucr_1481 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NON-CRIMINAL" ;
+           :iucr_secondary_descr "CONCEALED CARRY LICENSE REVOCATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1574
+:iucr_1574 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "SEX OFFENSE" ;
+           :iucr_secondary_descr "FORNICATION" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_2111
+:iucr_2111 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "NARCOTICS" ;
+           :iucr_secondary_descr "SALE/DEL HYPODERMIC NEEDLE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1526
+:iucr_1526 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "PROSTITUTION" ;
+           :iucr_secondary_descr "PATRONIZE JUVENILE PROSTITUTE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0480
+:iucr_0480 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PRO.EMP: HANDGUN" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0489
+:iucr_0489 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGGRAVATED DOMESTIC BATTERY: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0481
+:iucr_0481 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "BATTERY" ;
+           :iucr_secondary_descr "AGG PRO.EMP: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0830
+:iucr_0830 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "THEFT" ;
+           :iucr_secondary_descr "THEFT RETAIL" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_5013
+:iucr_5013 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "OTHER OFFENSE" ;
+           :iucr_secondary_descr "VIOLATION OF SUMMARY CLOSURE" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_1230
+:iucr_1230 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "DECEPTIVE PRACTICE" ;
+           :iucr_secondary_descr "POSS. KEYS OR DEV.TO COIN MACH" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3720
+:iucr_3720 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "REFUSING TO AID AN OFFICER" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_0272
+:iucr_0272 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "CRIM SEXUAL ASSAULT" ;
+           :iucr_secondary_descr "ATTEMPT AGG: OTHER FIREARM" .
+
+
+###  http://www.di.uminho.pt/prc2021/chicago_crimes#iucr_3770
+:iucr_3770 rdf:type owl:NamedIndividual ,
+                  :IUCR ;
+           :iucr_primary_descr "INTERFERENCE WITH PUBLIC OFFICER" ;
+           :iucr_secondary_descr "CONTRABAND IN PRISON" .
+
+
