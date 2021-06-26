@@ -18,44 +18,103 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Hoteis' });
 });
 
-
+/* 
+  - exemplo: http://localhost:7700/hoteis?country=Greece devolve a lista de hoteis
+situados na Bulgária ordenados pelo nome 
+  - exemplo: http://localhost:7700/hoteis?country=Greece&city=Adamas devolve a lista de hoteis
+situados na Bulgária na cidade Balchik ordenados pelo nome
+*/
 router.get('/hoteis', function (req, res, next){
+  if (req.query.country && req.query.city){
+    var query = `select ?s ?name ?city ?country where { 
+      ?s rdf:type :Hotel;
+        :name ?name;
+        :city ?city;
+        :country ?country;	
+        filter regex(?country,"`+ req.query.country +`").
+        filter regex(?city,"`+ req.query.city +`").
+    }  
+    order by ?name
+    `
+    var encoded = encodeURIComponent(prefixes + query)
   
-  var query = `select ?name ?property_type ?address ?city ?country ?longitude ?latitude ?property_type ?star_rating ?zip_code ?url where { 
-    ?s rdf:type :Hotel;
-      :name ?name;
-      :address ?address;
-      :city ?city;
-      :country ?country;
-      :latitude ?latitude;
-      :longitude ?longitude;
-      :property_type ?property_type;
-      :star_rating ?star_rating;
-      :url ?url;
-      :zip_code ?zip_code.	
-  }  
-  `
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var hoteis = dados.data.results.bindings.map(bind => {return {
+                name : bind.name.value,
+                city : bind.city.value,
+                country : bind.country.value,
+            }});
+            
+            res.status(200).jsonp(hoteis);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
 
-  var encoded = encodeURIComponent(prefixes + query)
+  else if(req.query.country){
 
-  axios.get(getLink + encoded)
-     .then(dados => {
-        var hoteis = dados.data.results.bindings.map(bind => {return {
-              name : bind.name.value,
-              property_type : bind.property_type.value,
-              address: bind.address.value,
-              city: bind.city.value,
-              country: bind.country.value,
-              star_rating : bind.star_rating.value,
-              zip_code : bind.zip_code.value,
-              url : bind.url.value,
-              latitude : bind.latitude.value,
-              longitude : bind.longitude.value,
-          }});
-          
-          res.status(200).jsonp(hoteis);
-      })
-      .catch(e => res.render('error', {error: e}))
+    var query = `select ?s ?name ?country where { 
+      ?s rdf:type :Hotel;
+        :name ?name;
+        :country ?country;	
+        filter regex(?country,"`+ req.query.country +`").
+    }  
+    order by ?name
+    `
+    var encoded = encodeURIComponent(prefixes + query)
+  
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var hoteis = dados.data.results.bindings.map(bind => {return {
+                name : bind.name.value,
+                country : bind.country.value,
+            }});
+            
+            res.status(200).jsonp(hoteis);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
+  
+  else{
+
+    var query = `select ?s ?name ?property_type ?address ?city ?country ?longitude ?latitude ?property_type ?star_rating ?zip_code ?url where { 
+      ?s rdf:type :Hotel;
+        :name ?name;
+        :address ?address;
+        :city ?city;
+        :country ?country;
+        :latitude ?latitude;
+        :longitude ?longitude;
+        :property_type ?property_type;
+        :star_rating ?star_rating;
+        :url ?url;
+        :zip_code ?zip_code.	
+    }  
+    order by ?name
+    `
+  
+    var encoded = encodeURIComponent(prefixes + query)
+  
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var hoteis = dados.data.results.bindings.map(bind => {return {
+                name : bind.name.value,
+                property_type : bind.property_type.value,
+                address: bind.address.value,
+                city: bind.city.value,
+                country: bind.country.value,
+                star_rating : bind.star_rating.value,
+                zip_code : bind.zip_code.value,
+                url : bind.url.value,
+                latitude : bind.latitude.value,
+                longitude : bind.longitude.value,
+            }});
+            
+            res.status(200).jsonp(hoteis);
+        })
+        .catch(e => res.render('error', {error: e}))
+
+  }
 })
 
 // exemplo:  http://localhost:7700/hoteis/1771651
@@ -98,39 +157,159 @@ router.get('/hoteis/:id', function (req, res, next){
       .catch(e => res.render('error', {error: e}))
 })
 
+
+/* 
+  - exemplo: http://localhost:7700/rooms?room_type=all devolve os tipos de quartos
+presentes na ontologia
+  - exemplo: http://localhost:7700/rooms?room_type=Junior Suite devolve os quartos que são
+  do tipo Double
+  - exemplo: http://localhost:7700/rooms?belongsTo=998724 Suite devolve os quartos que
+  pertence a um determinado hotel dado o id do hotel
+  - exemplo: http://localhost:7700/rooms?belongsN=Auberge Du Grand Dauphin devolve os quartos que
+  pertence a um determinado hotel dado o nome do hotel
+*/
 router.get('/rooms', function (req, res, next){
-  
-  var query = `select ?s ?room_type ?hotel ?room_am ?room_ft ?url where { 
-    ?s rdf:type :Room;
-        :belongs_to ?hotel;
-         :room_type ?room_type;
-      :room_amenities ?room_am;
-      :room_features ?room_ft;
-      :url ?url.
-  }
-  `
+  if(req.query.belongsTo){
+    var query = `select ?s ?room_type ?room_am ?room_ft ?url where { 
+          ?s rdf:type :Room;
+            :belongs_to :hotel_`+ req.query.belongsTo +`;
+            :room_type ?room_type;
+            :room_amenities ?room_am;
+            :room_features ?room_ft;
+            :url ?url.
+    }
+    `
 
-  var encoded = encodeURIComponent(prefixes + query)
+    var encoded = encodeURIComponent(prefixes + query)
 
-  axios.get(getLink + encoded)
-     .then(dados => {
-        var rooms = dados.data.results.bindings.map(bind => {return {
+    axios.get(getLink + encoded)
+      .then(dados => {
+          var rooms = dados.data.results.bindings.map(bind => {return {
               s : bind.s.value.split("#")[1],
-              hotel : bind.hotel.value.split("#")[1],
               room_type : bind.room_type.value,
               room_am : bind.room_am.value,
+              room_ft : bind.room_ft.value,
               url : bind.url.value
-          }});
-          
-          res.status(200).jsonp(rooms);
-      })
-      .catch(e => res.render('error', {error: e}))
+            }});
+            
+            res.status(200).jsonp(rooms);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
+
+  else if(req.query.belongsN){
+    var query = `select ?s ?room_type ?room_am ?room_ft ?url where { 
+          ?s rdf:type :Room;
+            :belongs_to ?hotel.
+        ?hotel :name ?nome.
+        ?s  :room_type ?room_type;
+            :room_amenities ?room_am;
+            :room_features ?room_ft;
+            :url ?url.
+        filter regex(?nome,"`+ req.query.belongsN +`").
+    }
+    `
+
+    var encoded = encodeURIComponent(prefixes + query)
+
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var rooms = dados.data.results.bindings.map(bind => {return {
+              s : bind.s.value.split("#")[1],
+              room_type : bind.room_type.value,
+              room_am : bind.room_am.value,
+              room_ft : bind.room_ft.value,
+              url : bind.url.value
+            }});
+            
+            res.status(200).jsonp(rooms);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
+  
+  else if(req.query.room_type == "all"){
+    var query = `select distinct ?room_type where { 
+          ?s rdf:type :Room;
+            :room_type ?room_type.
+        }  
+        order by ?room_type
+    `
+  
+    var encoded = encodeURIComponent(prefixes + query)
+  
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var rooms = dados.data.results.bindings.map(bind => {return {
+            room_type : bind.room_type.value,
+            }});
+            
+            res.status(200).jsonp(rooms);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
+
+  else if(req.query.room_type ){
+    var query = `select ?s ?room_type ?hotel ?room_am ?room_ft ?url where { 
+      ?s rdf:type :Room;
+               :belongs_to ?hotel;
+                :room_type ?room_type;
+             :room_amenities ?room_am;
+             :room_features ?room_ft;
+             :url ?url.
+         filter regex(?room_type,"^(`+ req.query.room_type +`)$")
+     }
+    `
+
+    var encoded = encodeURIComponent(prefixes + query)
+
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var rooms = dados.data.results.bindings.map(bind => {return {
+                s : bind.s.value.split("#")[1],
+                hotel : bind.hotel.value.split("#")[1],
+                room_type : bind.room_type.value,
+                room_am : bind.room_am.value,
+                room_ft : bind.room_ft.value,
+                url : bind.url.value
+            }});
+            
+            res.status(200).jsonp(rooms);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
+
+  else{
+    var query = `select ?s ?room_type ?hotel ?room_am ?room_ft ?url where { 
+      ?s rdf:type :Room;
+          :belongs_to ?hotel;
+           :room_type ?room_type;
+        :room_amenities ?room_am;
+        :room_features ?room_ft;
+        :url ?url.
+    }
+    `
+  
+    var encoded = encodeURIComponent(prefixes + query)
+  
+    axios.get(getLink + encoded)
+       .then(dados => {
+          var rooms = dados.data.results.bindings.map(bind => {return {
+                s : bind.s.value.split("#")[1],
+                hotel : bind.hotel.value.split("#")[1],
+                room_type : bind.room_type.value,
+                room_am : bind.room_am.value,
+                url : bind.url.value
+            }});
+            
+            res.status(200).jsonp(rooms);
+        })
+        .catch(e => res.render('error', {error: e}))
+  }
 })
 
 
 // exemplo : http://localhost:7700/rooms/50672149
 router.get('/rooms/:id', function (req, res, next){
-  console.log(req.params.id)
   var query = `select ?room_type ?hotel ?room_am ?room_ft ?url where { 
     :room_`+ req.params.id +` rdf:type :Room;
         :belongs_to ?hotel;
@@ -157,7 +336,6 @@ router.get('/rooms/:id', function (req, res, next){
       })
       .catch(e => res.render('error', {error: e}))
 })
-
 
 
 module.exports = router;
