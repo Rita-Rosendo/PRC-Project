@@ -100,12 +100,13 @@ router.get('/hoteis/:id', function (req, res, next){
 
 router.get('/rooms', function (req, res, next){
   
-  var query = `select ?s ?room_type ?hotel ?room_am ?room_ft where { 
+  var query = `select ?s ?room_type ?hotel ?room_am ?room_ft ?url where { 
     ?s rdf:type :Room;
         :belongs_to ?hotel;
          :room_type ?room_type;
       :room_amenities ?room_am;
-      :room_features ?room_ft.
+      :room_features ?room_ft;
+      :url ?url.
   }
   `
 
@@ -117,7 +118,8 @@ router.get('/rooms', function (req, res, next){
               s : bind.s.value.split("#")[1],
               hotel : bind.hotel.value.split("#")[1],
               room_type : bind.room_type.value,
-              room_am : bind.room_am.value
+              room_am : bind.room_am.value,
+              url : bind.url.value
           }});
           
           res.status(200).jsonp(rooms);
@@ -129,12 +131,13 @@ router.get('/rooms', function (req, res, next){
 // exemplo : http://localhost:7700/rooms/50672149
 router.get('/rooms/:id', function (req, res, next){
   console.log(req.params.id)
-  var query = `select ?room_type ?hotel ?room_am ?room_ft where { 
+  var query = `select ?room_type ?hotel ?room_am ?room_ft ?url where { 
     :room_`+ req.params.id +` rdf:type :Room;
         :belongs_to ?hotel;
          :room_type ?room_type;
       :room_amenities ?room_am;
-      :room_features ?room_ft.
+      :room_features ?room_ft;
+      :url ?url.
   }
   `
 
@@ -146,7 +149,8 @@ router.get('/rooms/:id', function (req, res, next){
               hotel : bind.hotel.value.split("#")[1],
               room_ft : bind.room_ft.value,
               room_type : bind.room_type.value,
-              room_am : bind.room_am.value
+              room_am : bind.room_am.value,
+              url : bind.url.value
           }});
           
           res.status(200).jsonp(rooms);
