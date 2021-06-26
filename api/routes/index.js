@@ -31,8 +31,8 @@ router.get('/hoteis', function (req, res, next){
         :name ?name;
         :city ?city;
         :country ?country;	
-        filter regex(?country,"`+ req.query.country +`").
-        filter regex(?city,"`+ req.query.city +`").
+        filter regex(?country,"^`+ req.query.country +`$").
+        filter regex(?city,"^`+ req.query.city +`$").
     }  
     order by ?name
     `
@@ -57,7 +57,7 @@ router.get('/hoteis', function (req, res, next){
       ?s rdf:type :Hotel;
         :name ?name;
         :country ?country;	
-        filter regex(?country,"`+ req.query.country +`").
+        filter regex(?country,"^`+ req.query.country +`$").
     }  
     order by ?name
     `
@@ -75,7 +75,7 @@ router.get('/hoteis', function (req, res, next){
         .catch(e => res.render('error', {error: e}))
   }
   
-  else{
+  else if (req.query == NULL){
 
     var query = `select ?s ?name ?property_type ?address ?city ?country ?longitude ?latitude ?property_type ?star_rating ?zip_code ?url where { 
       ?s rdf:type :Hotel;
@@ -278,7 +278,7 @@ router.get('/rooms', function (req, res, next){
         .catch(e => res.render('error', {error: e}))
   }
 
-  else{
+  else if (req.query == NULL){
     var query = `select ?s ?room_type ?hotel ?room_am ?room_ft ?url where { 
       ?s rdf:type :Room;
           :belongs_to ?hotel;
