@@ -1,0 +1,45 @@
+version: '3.7'
+services:
+
+  front:
+    build: front
+    ports:
+      - 8081:8081
+    environment:
+      API_HOST: localhost
+      API_PORT: 9595
+    depends_on:
+      - back
+
+  back:
+    build: back
+    environment:
+      APP_PORT: 3001
+      FRONT_HOST: localhost
+      FRONT_PORT: 8081
+      GRAPHDB_HOST: graphDb
+      GRAPHDB_PORT: 7200
+      GRAPHDB_REPO: PRC_PROJECT
+      MONGO_HOST: mongoDb
+      MONGO_PORT: 27017
+      MONGO_DBNAME: PRC_PROJECT
+    ports:
+      - 9595:3001
+    depends_on: 
+      - mongoDb
+      - graphDb
+
+  mongoDb:
+    image: mongo
+    restart: always
+    volumes:
+      - mgdata:/data/db
+  
+  graphDb:
+    image: basto97/ontologia
+    restart: always
+    ports:
+      - 5555:7200
+
+volumes:
+  mgdata:
