@@ -20,7 +20,7 @@
                 <td v-if="triplo.p != 'type' && triplo.p == 'url'"><a class="text-link" href=$triplo.o>{{triplo.o}}</a></td>
             </tr>
     </table>
-    <div v-if="dadosRooms != null"> 
+    <div v-if="dadosRooms != ''"> 
         <h4 style="color: darkblue">Rooms of {{idH}}</h4>
         <div class="boxH">
             <div class="btn-group">
