@@ -72,22 +72,10 @@
             </tr>
         </tbody>
     </table>
-    <table class="table2">
-        <tr>
-          <td>
-            Page : {{page}}/{{pages}}
-          </td>
-         <td>
-           <button @click="previousPage" v-if="page>1"  type="button">Previous page</button>
-         </td>
-          <td>
-            <button  @click="nextPage" v-if="page !==pages" type="button">Next Page</button>
-          </td>
-        </tr>
-    </table>
     <div class="end">
-      <button @click="$router.go(-1)" style="background-color: #2f7aae; color: #191919 " >Go Back</button>
-      <button @click="redirectToProfile()" style="background-color: #2f7aae; color: #191919 " >Go to Profile</button>
+      <button  type="button">Page : {{page}}/{{pages}}</button>
+      <button @click="previousPage" v-if="page>1"  type="button">Previous page</button>
+      <button  @click="nextPage" v-if="page !==pages" type="button">Next Page</button>
     </div>
 </div>
 </template>

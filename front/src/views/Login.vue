@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-3 login-form-2">
         <h3>Welcome!</h3>
-        <img src="homePage.jpg" width="200" height="170"/>
+        <img src="homePage.jpg" width="150" height="150"/>
           <p class="" style="color:#191919">If you don't have an account, you can create it here</p>
            <div class="center bt ">
           <router-link to="/register" class="center btnSubmit">Register</router-link>
