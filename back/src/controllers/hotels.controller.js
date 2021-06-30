@@ -46,6 +46,12 @@ exports.getHoteis = (req, res) => {
     if(req.query.address != ""){
         query +=       `filter regex(?address,"`+ req.query.address +`").`
     }
+    if(req.query.star_rating != ""){
+        query +=       `filter (?star_rating=`+ req.query.star_rating +`).`
+    }
+    if(req.query.property_type != ""){
+        query +=       `filter regex(?property_type,"`+ req.query.property_type +`").`
+    }
 
         query +=        `
     }  
@@ -99,11 +105,17 @@ exports.getHoteisPage = (req, res) => {
     if(req.query.address != ""){
         query +=       `filter regex(?address,"`+ req.query.address +`").`
     }
+    if(req.query.star_rating != ""){
+        query +=       `filter (?star_rating=`+ req.query.star_rating +`).`
+    }
+    if(req.query.property_type != ""){
+        query +=       `filter regex(?property_type,"`+ req.query.property_type +`").`
+    }
     query +=        `
     }  
     `
     var encoded = encodeURIComponent(prefixes + query)
-
+    console.log(query)
     axios.get(getLink + encoded)
         .then(dados => {
             res.status(200).jsonp(dados.data.results);

@@ -4,12 +4,12 @@ import authHeader from './auth-header';
 const API_URL = 'http://localhost:9595/';
 
 class UserService {
-  getHotels(page, name, address, city, country) {
-    return axios.get(API_URL + 'hoteis?page='+page+"&city="+city+"&country="+country+"&address="+address+"&name="+name,  { headers: authHeader() });
+  getHotels(page, name, address, city, country, type, rating) {
+    return axios.get(API_URL + 'hoteis?page='+page+"&city="+city+"&country="+country+"&address="+address+"&name="+name+"&star_rating="+rating+"&property_type="+type,  { headers: authHeader() });
   }
 
-  getHotelPages(name, address, city, country) {
-    return axios.get(API_URL + "hoteisPage?city="+city+"&country="+country+"&address="+address+"&name="+name,  { headers: authHeader() });
+  getHotelPages(name, address, city, country,type, rating) {
+    return axios.get(API_URL + "hoteisPage?city="+city+"&country="+country+"&address="+address+"&name="+name+"&star_rating="+rating+"&property_type="+type,  { headers: authHeader() });
   }
 
   getRooms(page, room_type) {

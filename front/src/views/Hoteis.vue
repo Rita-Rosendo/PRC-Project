@@ -29,7 +29,21 @@
               v-model="searchName"
               @input="onChange"
           /></td>
-          <td></td>
+          <td><select
+              v-model="searchType"
+              class="form-control"
+              name="searchType"
+              @change="onChange"
+          >
+            <option value=""></option>
+            <option value="Holiday parks">Holiday parks</option>
+            <option value="Hotels">Hotels</option>
+            <option value="Campsites">Campsites</option>
+            <option value="Resorts">Resorts</option>
+            <option value="Bed and breakfasts">Bed and breakfasts</option>
+            <option value="Inns">Inns</option>
+            <option value="Motels">Motels</option>
+          </select></td>
           <td><input
               type="text"
               class="form-control"
@@ -48,7 +62,19 @@
               v-model="searchCountry"
               @input="onChange"
           /></td>
-          <td></td>
+          <td><select
+              v-model="searchRating"
+              class="form-control"
+              name="searchRating"
+              @change="onChange"
+          >
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select></td>
         </tr>
             <tr v-for="hotel in this.hoteis" :key="hotel.name">
                 <td scope="row">
@@ -92,7 +118,9 @@ export default {
           searchCity: '',
           searchCountry: '',
           searchName: '',
-          searchAddress: ''
+          searchAddress: '',
+          searchType: '',
+          searchRating: ''
         };
     },
     computed: {
@@ -109,7 +137,7 @@ export default {
     },
     onChange() {
       this.page = 1
-      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
           (response) => {
             this.hoteis = response.data;
           },
@@ -122,7 +150,7 @@ export default {
                 error.toString();
           }
       );
-      UserService.getHotelPages(this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+      UserService.getHotelPages(this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
           (response) => {
             this.pages = parseInt(response.data.bindings[0].triples.value/20)+1;
           },
@@ -141,7 +169,7 @@ export default {
       if (this.page < 1)
         this.page = 1
 
-      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
           (response) => {
             this.hoteis = response.data;
           },
@@ -161,7 +189,7 @@ export default {
       if (this.page > this.pages)
         this.page = this.pages
 
-      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
           (response) => {
             this.hoteis = response.data;
           },
@@ -180,8 +208,8 @@ export default {
         if (!this.currentUser) {
             this.$router.push('/');
         }
-        
-        UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+
+      UserService.getHotels(this.page, this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
             (response) => {
                 this.hoteis = response.data;
             },
@@ -195,7 +223,7 @@ export default {
             }
         );
 
-        UserService.getHotelPages(this.searchName, this.searchAddress, this.searchCity, this.searchCountry).then(
+      UserService.getHotelPages(this.searchName, this.searchAddress, this.searchCity, this.searchCountry, this.searchType, this.searchRating).then(
             (response) => {
               this.pages = parseInt(response.data.bindings[0].triples.value/20)+1;
             },
@@ -231,7 +259,6 @@ h3,h2,h3,h4,h1,h5,h6 {
   border: 1px solid #ddd;
   text-align: left;
   padding: 15px;
-  width: 80%;
 }
 
 .tableH tr:first-child {

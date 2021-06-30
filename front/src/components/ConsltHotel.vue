@@ -9,11 +9,7 @@
         </h6>
     </header>
 
-    <div v-for="(triplo,i) in dados"
-            v-bind:key="i">
-        <h3 v-if="triplo.p != 'type' && triplo.p == 'url'"><a class="text-link" target="_blank" :href="triplo.o">Hotel</a></h3>        
-    </div>
-
+    <h3> <a class="text-link" target="_blank" :href="this.hotelLink">{{hotelName}}</a></h3>
 
     <table class="tableH1">
             <tr v-for="(triplo,i) in dados"
@@ -55,6 +51,8 @@ export default {
       return {
             dados: null,
             dadosRooms : null,
+            hotelName: "",
+        hotelLink: "",
         };
     },
 
@@ -80,6 +78,8 @@ export default {
         UserService.getHotel(this.idH).then(
                 (response) => {
                     this.dados = response.data;
+                    this.hotelName = this.dados[7].o
+                  this.hotelLink= this.dados[10].o
                 },
                 (error) => {
                     this.content =
