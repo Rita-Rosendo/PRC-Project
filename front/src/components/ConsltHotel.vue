@@ -1,25 +1,10 @@
 <template>
   <div class="container">
-    <header class="jumbotron">
-        <h2>
-            Welcome <strong>{{ currentUser.username }}</strong>.
-        </h2>
-        <h6>
-            Your email: <strong>{{ currentUser.email }}</strong>
-        </h6>
-    </header>
 
-    <h3> <a class="text-link" target="_blank" :href="this.hotelLink">{{hotelName}}</a></h3>
+    <h3> <a class="text-link" target="_blank" :href="this.hotel.url">{{hotel.name}}</a></h3>
+    <h4>{{this.hotel.property_type}} {{this.starsStr}}</h4>
+    <h4><a class="text-link" target="_blank" :href="this.mapsUrl">{{hotel.address}}  {{hotel.city}} {{hotel.country}}</a> </h4>
 
-    <table class="tableH1">
-            <tr v-for="(triplo,i) in dados"
-                v-bind:key="i">
-                <th v-if="triplo.p != 'type' && triplo.p !== 'url'">{{triplo.p}}</th>
-                <td v-if="triplo.p != 'type' && triplo.p !== 'url'">{{triplo.o}}</td>
-                <th v-if="triplo.p != 'type' && triplo.p == 'url'">{{triplo.p}}</th>
-                <td v-if="triplo.p != 'type' && triplo.p == 'url'"><a class="text-link" target="_blank" :href="triplo.o">{{triplo.o}}</a></td>
-            </tr>
-    </table>
     <div v-if="dadosRooms != ''"> 
         <h4 style="color: darkblue">Rooms of {{idH}}</h4>
         <div class="boxH">
@@ -49,10 +34,10 @@ export default {
 
     data() {
       return {
-            dados: null,
-            dadosRooms : null,
-            hotelName: "",
-        hotelLink: "",
+            hotel: {},
+            mapsUrl: "https://www.google.com/maps/search/?api=1&query=",
+            starsStr :"",
+            dadosRooms : null
         };
     },
 
@@ -77,9 +62,9 @@ export default {
         }
         UserService.getHotel(this.idH).then(
                 (response) => {
-                    this.dados = response.data;
-                    this.hotelName = this.dados[7].o
-                  this.hotelLink= this.dados[10].o
+                    this.hotel = response.data[0];
+                    this.starsStr = "*".repeat(this.hotel.star_rating)
+                    this.mapsUrl += (this.hotel.name+this.hotel.address+ this.hotel.city+ this.hotel.country).replace(" ", "+")
                 },
                 (error) => {
                     this.content =
@@ -94,6 +79,7 @@ export default {
         UserService.getRoomsFromHotel(this.idH).then(
             (response) => {
                 this.dadosRooms = response.data;
+                console.log(this.dadosRooms)
             },
             (error) => {
                 this.content = 

@@ -189,21 +189,39 @@ exports.getRoomsPage = (req, res) => {
 }
 
 exports.getHotel = (req,res) => {
-    var query = 'select * where { :hotel_'+req.params.id+' ?p ?o .} '
+    var query = `select ?name ?city ?property_type ?address ?country ?longitude ?latitude ?star_rating ?url where { 
+        :hotel_${req.params.id} rdf:type :Hotel; 
+        :name ?name;
+              :city ?city;
+              :property_type ?property_type;
+              :address ?address;
+              :country ?country;
+              :longitude ?longitude;
+              :latitude ?latitude;
+              :star_rating ?star_rating;
+              :url ?url
+        } `
 
     var encoded = encodeURIComponent(prefixes + query)
 
     axios.get(getLink + encoded)
         .then(dados => {
-            console.log(dados.data.results.bindings)
             var hotelElem = dados.data.results.bindings.map(bind => {return {
-                "p": bind.p.value.split('#')[1],
-                "o": (bind.o.type == 'literal') ? bind.o.value : bind.o.value.split('#')[1],
+                "id" : req.params.id,
+                "name": bind.name.value,
+                "property_type": bind.property_type.value,
+                "address": bind.address.value,
+                "city": bind.city.value,
+                "country": bind.country.value,
+                "star_rating": bind.star_rating.value,
+                "url": bind.url.value,
+                "latitude": bind.latitude.value,
+                "longitude": bind.longitude.value
             }});
             res.status(200).jsonp(hotelElem);
         })
         .catch(err => {
-            res.status(500).jsonp(err);
+            console.log(err)
         })
 }
 
