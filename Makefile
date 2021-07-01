@@ -5,4 +5,4 @@ down :
 	docker-compose down --rmi local
 
 rm_volume:
-	docker volume rm lei2_mgdata
+	docker volume rm  prc-project_mgdata
