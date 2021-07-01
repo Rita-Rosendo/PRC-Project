@@ -1,5 +1,7 @@
 const axios = require('axios')
 const config = require('../config.js')
+const db = require("../models");
+const Reservation = db.reservation;
 
 var prefixes = `
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -226,17 +228,26 @@ exports.getHotel = (req,res) => {
 }
 
 exports.getRoom = (req,res) => {
-    console.log("IDDDD do quartooo no getRoom: " + ':room_'+req.params.id)
-    var query = 'select * where { :room_'+req.params.id+' ?p ?o .} '
+    var query = `
+        select *
+        where{
+            :${req.params.id} rdf:type :Room;
+                :belongs_to ?hotel;
+                :room_amenities ?room_amenities;
+                :room_features ?room_features;
+                :room_type ?room_type
+        }`
 
     var encoded = encodeURIComponent(prefixes + query)
 
     axios.get(getLink + encoded)
         .then(dados => {
-            console.log(dados.data.results.bindings)
             var room = dados.data.results.bindings.map(bind => {return {
-                "p": bind.p.value.split('#')[1],
-                "o": (bind.o.type == 'literal') ? bind.o.value : bind.o.value.split('#')[1],
+                "room": req.params.id,
+                "hotel": bind.hotel.value,
+                "room_amenities":bind.room_amenities.value,
+                "room_features":bind.room_features.value,
+                "room_type":bind.room_type.value
             }});
             res.status(200).jsonp(room);
         })
@@ -247,10 +258,13 @@ exports.getRoom = (req,res) => {
 
 exports.getRoomsFromHotel = (req,res) => {
     var query = `
-        select ?room
+        select *
         where{
             ?room rdf:type :Room;
-                :belongs_to :hotel_`+req.params.id+`.
+                :belongs_to :hotel_`+req.params.id+`;
+                :room_amenities ?room_amenities;
+                :room_features ?room_features;
+                :room_type ?room_type
         }`
 
     var encoded = encodeURIComponent(prefixes + query)
@@ -260,6 +274,9 @@ exports.getRoomsFromHotel = (req,res) => {
             console.log(dados.data.results.bindings)
             var room = dados.data.results.bindings.map(bind => {return {
                 "room": bind.room.value.split('#')[1],
+                "room_amenities":bind.room_amenities.value,
+                "room_features":bind.room_features.value,
+                "room_type":bind.room_type.value
             }});
             res.status(200).jsonp(room);
         })
@@ -268,3 +285,30 @@ exports.getRoomsFromHotel = (req,res) => {
         })
 }
 
+exports.getReservations =  (req, res) => {
+    Reservation.find({}).exec((err, data) => {
+        if (err) {
+            res.status(500).send({ message: err });
+            return;
+        }
+        res.status(200).send(JSON.stringify(data));
+    });
+};
+
+exports.newReservations =  (req, res) => {
+    new Reservation({
+        to: req.body.to,
+        from: req.body.from,
+        room: req.body.room,
+        user: req.userId,
+        roomType: req.body.roomType,
+        hotelName: req.body.hotelName,
+        hotelId: req.body.hotelId
+    }).save(err => {
+        if (err) {
+            res.status(500).send({ message: err });
+        } else {
+            res.status(200).send({ message: "Reservation was registered successfully!" });
+        }
+    });
+};

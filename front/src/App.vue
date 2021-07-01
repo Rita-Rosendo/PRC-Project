@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-dark" v-if="currentUser" >
-      <strong class="navbar-brand">HotelReservations </strong>
+    <strong class="navbar-brand">Minhotel</strong>
       <div v-if="currentUser" class="navbar-nav ml-auto">
         <li class="nav-item">
           <router-link to="/profile" class="nav-link">

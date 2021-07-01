@@ -1,12 +1,12 @@
 version: '2.2'
 services:
 
-  #front:
-   # build: front
-    #ports:
-     # - 8081:8081
-    #depends_on:
-     # - back
+  front:
+    build: front
+    ports:
+      - 8081:8081
+    depends_on:
+      - back
 
   back:
     build: back
@@ -35,8 +35,6 @@ services:
   graphDb:
     image: basto97/ontologia
     restart: always
-    ports:
-      - 5555:7200
 
 volumes:
   mgdata:

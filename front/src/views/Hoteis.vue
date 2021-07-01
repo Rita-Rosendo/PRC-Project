@@ -1,14 +1,6 @@
 <template>
 <div class="container">
-    <header class="jumbotron">
-        <h2>
-            Welcome <strong>{{ currentUser.username }}</strong>.
-        </h2>
-        <h6>
-            Your email: <strong>{{ currentUser.email }}</strong>
-        </h6>
-    </header>
-    <h2><strong>Hotels</strong></h2>
+    <h2><strong>Make your choice</strong></h2>
 
     <table class="tableH">
         <thead>
@@ -69,7 +61,6 @@
               @change="onChange"
           >
             <option value=""></option>
-            <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
@@ -78,7 +69,7 @@
         </tr>
             <tr v-for="hotel in this.hoteis" :key="hotel.name">
                 <td scope="row">
-                    <button @click="goHotelID(hotel.id)" class="button" >{{hotel.name}} </button>
+                  <RouterLink :to="{path: '/hotel/' + hotel.id}">{{hotel.name}}</RouterLink>
                 </td>
               <td scope="row">
                 {{hotel.property_type}}
@@ -129,9 +120,6 @@ export default {
         },
     },
   methods: {
-    goHotelID(id){
-        this.$router.push('/hotel/' + id);
-    },
     redirectToProfile(){
             this.$router.push('/profile');
     },
@@ -275,7 +263,10 @@ tbody tr:nth-child(odd){
   background-color: #e0e9f0;
   color: #191919;
 }
-
+h2{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 .button {
   background-color: #7096ba ;
   border: none;
@@ -293,5 +284,8 @@ tbody tr:nth-child(odd){
   right: 10px;
   padding: 40px 70px;
   font-size: 20px;
+}
+table {
+  margin-bottom: 4em;
 }
 </style>

@@ -10,11 +10,13 @@ module.exports = function(app) {
     });
 
     // app.get("/hoteis", verifyToken, controller.getHoteis);
-    app.get("/hoteis", controller.getHoteis);
-    app.get("/hoteisPage", controller.getHoteisPage);
-    app.get("/rooms", controller.getRooms);
-    app.get("/roomsPage", controller.getRoomsPage);
-    app.get("/hotel/:id",controller.getHotel);
-    app.get("/hotelRooms/:id",controller.getRoomsFromHotel);
-    app.get("/room/:id",controller.getRoom);
+    app.get("/hoteis",verifyToken, controller.getHoteis);
+    app.get("/hoteisPage",verifyToken, controller.getHoteisPage);
+    app.get("/rooms",verifyToken, controller.getRooms);
+    app.get("/roomsPage",verifyToken, controller.getRoomsPage);
+    app.get("/hotel/:id",verifyToken,controller.getHotel);
+    app.get("/hotelRooms/:id",verifyToken,controller.getRoomsFromHotel);
+    app.get("/room/:id",verifyToken,controller.getRoom);
+    app.get("/reservations", verifyToken, controller.getReservations);
+    app.post("/reservations", verifyToken, controller.newReservations);
 };

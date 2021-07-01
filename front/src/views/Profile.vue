@@ -1,29 +1,42 @@
 <template>
 <div class="container">
-    <header class="jumbotron">
+
         <h2>
             Welcome <strong>{{ currentUser.username }}</strong>.
         </h2>
         <h6>
             Your email: <strong>{{ currentUser.email }}</strong>
         </h6>
-    </header>
-    <div class="box">
-      <div class="btn-group">
-        <table>
-          <tr>
-            <button @click="goPageHotels" class="button" >Click here to see all hotels</button>
-            <button @click="goPageRooms" class="button" >Click here to see all rooms</button>
-          </tr>
-        </table>
-      </div>
-    </div>
+  <table class="center">
+    <thead><th>Hotel</th><th>Room</th><th>From</th><th>To</th></thead>
+    <tbody><tr v-for="r in reservations"      v-bind:key="r.from">
+      <td><RouterLink :to="{path: '/hotel/' + r.hotelId}">{{r.hotelName}}</RouterLink></td>
+      <td>{{r.roomType}}</td>
+      <td>{{r.from}}</td>
+      <td>{{r.to}}</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <RouterLink :to="{path: '/hoteis/'}">New Reservation</RouterLink></td>
+    <td></td> <td></td> <td></td>
+    </tr></tbody>
+
+
+</table>
 </div>
 </template>
 
 <script>
+import UserService from '../services/user.service';
 export default {
+
     name: 'Profile',
+  data() {
+    return {
+      reservations: [],
+    };
+  },
     computed: {
         currentUser() {
             return this.$store.state.auth.user;
@@ -42,6 +55,20 @@ export default {
         if (!this.currentUser) {
             this.$router.push('/');
         }
+      UserService.getReservations().then(
+          (response) => {
+            this.reservations = response.data;
+            console.log(this.reservations)
+          },
+          (error) => {
+            this.content =
+                (error.response &&
+                    error.response.data &&
+                    error.response.data.message) ||
+                error.message ||
+                error.toString();
+          }
+      );
     },
 };
 </script>
@@ -55,11 +82,7 @@ export default {
 h3,h2,h3,h4,h1,h5,h6 {
   text-align: center;
 }
-.jumbotron {
-  padding: 1rem 1rem;
-  color: #191919;
-  background-color:#5482ac !important;
-}
+
 .btn-group .button {
   margin-left: 40%;
   background-color: white;
@@ -74,8 +97,9 @@ h3,h2,h3,h4,h1,h5,h6 {
   display: block;
 }
 
-.box {
-  margin-top: 15%;
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-group .button:not(:last-child) {
@@ -84,5 +108,15 @@ h3,h2,h3,h4,h1,h5,h6 {
 
 .btn-group .button:hover {
   background-color: #2f7aae;
+}
+h2{
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+h6{
+  padding-bottom: 45px;
+}
+table{
+  width: 80%;
 }
 </style>

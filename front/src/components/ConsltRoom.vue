@@ -1,32 +1,39 @@
 <template>
     <div class="container">
-        <header class="jumbotron">
-            <h2>
-                Welcome <strong>{{ currentUser.username }}</strong>.
-            </h2>
-            <h6>
-                Your email: <strong>{{ currentUser.email }}</strong>
-            </h6>
-        </header>
+      <form name="form" @submit.prevent="handleRegister">
+      <h2>New reservation at <RouterLink :to="{path: '/hotel/' + hotel.id}">{{hotel.name}}</RouterLink></h2>
+      <h4><B>{{this.dadosRoom.room_type}}</B></h4>
+      <h4>{{this.dadosRoom.room_features}}</h4>
+      <h6>{{this.dadosRoom.room_amenities}}</h6>
+      <div class="form-group">
+        <table class="center">
+          <tbody>
+          <tr>
+            <td><label for="from">From</label>
+              <input v-model="dates.from" type="date" id="from" class="form-control" name="from">
+            </td>
+            <td><label for="to">To</label>
+              <input v-model="dates.to" type="date" id="to" class="form-control" name="to"></td>
+          </tr>
 
-        <div v-for="(triplo,i) in dadosRoom"
-            v-bind:key="i">
-            <h3 v-if="triplo.p != 'type' && triplo.p == 'url'"><a class="text-link" target="_blank" :href="triplo.o">Room</a></h3>        
-        </div>
-        
-        <table class="tableRoom">
-            <tr v-for="(triplo,i) in dadosRoom"
-                v-bind:key="i">
-                <th v-if="triplo.p != 'type' && triplo.p !== 'url'">{{triplo.p}}</th>
-                <td v-if="triplo.p != 'type' && triplo.p !== 'url'">{{triplo.o}}</td>
-                <th v-if="triplo.p != 'type' && triplo.p == 'url'">{{triplo.p}}</th>
-                <td v-if="triplo.p != 'type' && triplo.p == 'url'"><a class="text-link" target="_blank" :href="triplo.o">{{triplo.o}}</a></td>
-            </tr>
+          </tbody>
         </table>
-        <div class="end">
-            <button @click="$router.go(-1)" style="background-color: #2f7aae; color: #191919 " >Go Back</button>
-            <button @click="redirectToProfile()" style="background-color: #2f7aae; color: #191919 " >Go to Profile</button>
-        </div>
+        <table class="center">
+          <tbody>
+          <tr>
+            <td>
+              <div class="form-group">
+                <button class="btn btn-primary btn-block" style="background-color: #9cc297; color: #505050 ">Register</button>
+              </div>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+
+
+      </div>
+      </form>
     </div>
 </template>
 
@@ -39,6 +46,8 @@ export default ({
     data() {
         return {
             dadosRoom : null,
+          hotel: null,
+          dates : {}
         };
     },
 
@@ -54,8 +63,26 @@ export default ({
         },
         redirectToProfile(){
             this.$router.push('/profile');
-        }
+        },
+      handleRegister() {
+        this.message = '';
+        this.submitted = true;
 
+          UserService.newReservation(this.dates.from,this.dates.to,this.dadosRoom.room,this.dadosRoom.room_type,this.hotel.id,this.hotel.name).then(
+              () => {
+                this.$router.push('/profile');
+              },
+              (error) => {
+                this.content =
+                    (error.response &&
+                        error.response.data &&
+                        error.response.data.message) ||
+                    error.message ||
+                    error.toString();
+              }
+          );
+
+      },
     },
 
     mounted() {
@@ -64,7 +91,21 @@ export default ({
         }
         UserService.getRoom(this.idR).then(
                 (response) => {
-                    this.dadosRoom = response.data;
+                    this.dadosRoom = response.data[0];
+                  UserService.getHotel(this.dadosRoom.hotel.split("_")[1]).then(
+                      (response) => {
+                        this.hotel = response.data[0];
+
+                      },
+                      (error) => {
+                        this.content =
+                            (error.response &&
+                                error.response.data &&
+                                error.response.data.message) ||
+                            error.message ||
+                            error.toString();
+                      }
+                  );
                 },
                 (error) => {
                     this.content =
@@ -79,11 +120,24 @@ export default ({
 })
 </script>
 <style>
+h3,h2,h3,h4,h1,h5,h6 {
+  text-align: center;
+}
+h2{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+h4{
+  padding-bottom: 20px;
+}
 .tableRoom {
   margin-left: auto;
   margin-right: auto;
 }
-
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 .tableRoom th {
     text-align: center;
     width: 100px;

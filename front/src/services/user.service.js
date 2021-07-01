@@ -32,6 +32,19 @@ class UserService {
     return axios.get(API_URL + "room/" + idR, {headers: authHeader() });
   }
 
+  getReservations(){
+    return axios.get(API_URL + "reservations/" , {headers: authHeader() });
+  }
+  newReservation(dateFrom, dateTo, idRoom, roomType, hotelId, hotelName){
+    return axios.post(API_URL + "reservations/", {
+      "from": dateFrom,
+      "to": dateTo,
+      "room": idRoom,
+      "roomType": roomType,
+      "hotelId": hotelId,
+      "hotelName":hotelName
+    },{headers: authHeader() });
+  }
 }
 
 export default new UserService();
